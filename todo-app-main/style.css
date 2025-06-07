@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+}
+.bg-container{
+    width: 100%;
+}
+.bg-container img{
+    width: 100%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10rem;
+    margin-top: 3rem;
+    color: #fff;
+    width: 35%;
+    padding-bottom: 2rem;
+}
+.todo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.input-container{
+    width: 35%;
+    height: 50px;
+    padding: .6rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: #fff;
+    border-radius: 5px;
+}
+#addTodo{
+    border: none;
+    outline: none;
+    width: 80%;
+    padding: .7rem;
+} 
+#todo-list{
+    background: #fff;
+    color: gray;width: 35%;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.14);
+}
+#todo-list ul li{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    padding: 1rem;
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+ input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-right: 40px;
+    cursor: pointer;
+ }
+ .filter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    padding: .5rem .6rem;
+ }
+ .filter span{
+    cursor: pointer;
+ }
+ .todoFilter{
+    display: flex;
+    gap: .5rem;
+ }
+
+
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+}
