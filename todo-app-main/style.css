@@ -6,7 +6,7 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'poppins';
     position: relative;
 }
 .bg-container{
@@ -22,7 +22,7 @@
     gap: 10rem;
     margin-top: 3rem;
     color: #fff;
-    width: 35%;
+    width: 40%;
     padding-bottom: 2rem;
 }
 .todo-container{
@@ -35,16 +35,16 @@
     top: 0;
 }
 .input-container{
-    width: 35%;
+    width: 40%;
     height: 50px;
     padding: .6rem 1rem;
     display: flex;
     align-items: center;
     gap: 1rem;
     background: #fff;
-    border-radius: 5px;
+    border-radius: 100vmax;
 }
-#addTodo{
+#addTodoInput{
     border: none;
     outline: none;
     width: 80%;
@@ -52,7 +52,7 @@
 } 
 #todo-list{
     background: #fff;
-    color: gray;width: 35%;
+    color: gray;width: 40%;
     border-radius: 5px;
     margin-top: 1.5rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.14);
@@ -76,15 +76,25 @@
     justify-content: space-between;
     font-size: 13px;
     padding: .5rem .6rem;
+    display: none;
  }
  .filter span{
     cursor: pointer;
  }
  .todoFilter{
     display: flex;
-    gap: .5rem;
+    gap: .7rem;
  }
-
+#addTodoBtn{
+    width: 30%;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: .7rem 1rem;
+    border-radius: 100vmax;
+    cursor: pointer;
+    background: hsl(280, 87%, 65%);
+}
 
 
 
